@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "title": "MongoDB as Datawarehouse backend",
+  "description": "Chances and Risks of using MongoDB as a Datawarehouse backend. (For analytic queries)",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
