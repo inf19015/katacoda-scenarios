@@ -1,8 +1,11 @@
 # Heading for Step 1
 
-This is some text.
+open monogdb terminal
+`docker exec -it mongodb bash`{{execute}}
 
-Here's a single line of runnable code:
 
-`printf 'Hello, world!\n\n'`{{execute}}
+`mongo`{{execute}}
+
+
+`use test`{{execute}}
 

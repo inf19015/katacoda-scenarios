@@ -1,8 +1,6 @@
 # Heading for Step 3
 
-This is some text.
+Find some data
 
-Here's a single line of runnable code:
-
-`printf 'Cello, world!\n\n'`{{execute}}
+`db.dogs.find({ name: “Spot” })`{{execute}}
 

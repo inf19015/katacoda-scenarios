@@ -1,8 +1,8 @@
 # Heading for Step 2
 
-This is some text.
+Save some data
 
-Here's a single line of runnable code:
-
-`printf 'Jello, world!\n\n'`{{execute}}
+`db.dogs.save({ name: “Spot” })
+db.dogs.save({ name: “Lucky” })
+db.dogs.save({ name: “Mochi” })`{{execute}}
 
