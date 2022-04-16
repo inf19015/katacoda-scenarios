@@ -6,9 +6,9 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "./docker-compose.yml", "target": "/root/docker-compose.yml/"},
-        {"file": "./data_creation/data_persons_merged.json", "target": "/root/data_persons_merged.json"},
-        {"file": "./data_creation/fill_db.py", "target": "/root/fill_db.py"}
+        {"file": "docker-compose.yml", "target": "/root/docker-compose.yml/"},
+        {"file": "data_persons_merged.json", "target": "/root/data_persons_merged.json"},
+        {"file": "fill_db.py", "target": "/root/fill_db.py"}
       ]
     },
     "steps": [
