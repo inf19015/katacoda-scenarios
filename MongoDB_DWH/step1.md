@@ -1,11 +1,6 @@
-# Heading for Step 1
+# Prerequisites
 
-open monogdb terminal
-`docker exec -it mongodb bash`{{execute}}
+Please wait until docker has set up the sample databases,
+then proceed to the next step.
 
-
-`mongo`{{execute}}
-
-
-`use test`{{execute}}
 
