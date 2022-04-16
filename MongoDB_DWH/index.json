@@ -8,7 +8,8 @@
       "host01": [
         {"file": "docker-compose.yml", "target": "/root/"},
         {"file": "data_persons_merged.json", "target": "/root/"},
-        {"file": "fill_db.py", "target": "/root/"}
+        {"file": "fill_db.py", "target": "/root/"},
+        {"file": "requirements.txt", "target": "/root/"}
       ]
     },
     "steps": [
