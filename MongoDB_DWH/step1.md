@@ -4,4 +4,4 @@ Please wait until docker has set up the sample databases,
 then proceed to the next step.
 
 now run the following command to fill the mongodb with test data:
-`python3 ./fill_db.py`{{execute}}
+`python ./fill_db.py`{{execute}}
