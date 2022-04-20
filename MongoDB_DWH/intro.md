@@ -1,31 +1,24 @@
-# New Scenario Template (Your Title Here)
+# Chancen und Risiken bei der Nutzung von MongoDB als DWH-Backend
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Welche Vor- und Nachteile bringt es mit sich, MongoDB als Backend für ein Data-warehouse Mart zu verwenden?
 
-## Description
+## Kurzbeschreibung
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
+Normalerweise werden im Data-warehouse Umfeld relationale Datenbanken verwendet und das auch aus gutem Grund. 
+Relationale Datenbanken können dabei helfen eine hohe Datenintegrität zu gewährleisten und sind in vielen Anwendungsfällen sehr performant.
 
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+Welche Vorteile, aber auch welche Gefahren bringt es mit sich, eine Dokumentenorientierte Datenbank wie MongoDB stattdessen einzusetzen?
+Im Folgenden werden diese Fragen Schritt für Schritt abgehandelt und mit einigen Beispielabfragen wird gezeigt wie im Data-warehouse Umfeld typische, 
+analytische Anfragen mit einer MongoDB ablaufen.
 
-## Learning Objective
+## Zusammenfassung
 
 - 3-4 bullets
 - of what you
 - will learn
 
 ## Prerequisite Skills
+ having a brain would be helpful
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
-
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
 
 

@@ -1,6 +1,6 @@
 {
-  "title": "MongoDB as Datawarehouse backend",
-  "description": "Chances and Risks of using MongoDB as a Datawarehouse backend. (For analytic queries)",
+  "title": "MongoDB als DWH-Backend",
+  "description": "Chancen und Risiken bei der Nutzung von MongoDB als DWH-Backend",
   "difficulty": "Intermediate",
   "time": "15 minutes",
   "details": {

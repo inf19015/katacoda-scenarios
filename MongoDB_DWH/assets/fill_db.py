@@ -15,8 +15,3 @@ if __name__ == "__main__":
     collection_name = dbname["person"]
     collection_name.insert_many(data_persons)
 
-    data_customers = json.load(open("data_customers_merged.json", "r"))
-    collection_name = dbname["customer"]
-    collection_name.insert_many(data_customers)
-
-

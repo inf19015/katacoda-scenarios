@@ -17,4 +17,14 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 
 You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
 
+## Quellen
+- Zane Bicevska, Ivo Oditis,
+  Towards NoSQL-based Data Warehouse Solutions,
+  Procedia Computer Science,
+  Volume 104,
+  2017,
+  Pages 104-111,
+  ISSN 1877-0509,
+  https://doi.org/10.1016/j.procs.2017.01.080.
+  (https://www.sciencedirect.com/science/article/pii/S1877050917300819)
 
