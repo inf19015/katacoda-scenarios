@@ -2,6 +2,8 @@
 
 Welche Vor- und Nachteile bringt es mit sich, MongoDB als Backend für ein Data-warehouse Mart zu verwenden?
 
+Zielgruppe: DWH-Entwickler mit wenig Erfahrung
+
 ## Kurzbeschreibung
 
 Normalerweise werden im Data-warehouse Umfeld relationale Datenbanken verwendet und das auch aus gutem Grund. 
