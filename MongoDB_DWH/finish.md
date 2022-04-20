@@ -1,22 +1,4 @@
 
-On the finish page, summarize what was just learned:
-
-- 3-4 bullets
-- of what you just
-- did and learned
-
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
-
-## Further Learning
-
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
-
 ## Quellen
 - Zane Bicevska, Ivo Oditis,
   Towards NoSQL-based Data Warehouse Solutions,
@@ -27,4 +9,5 @@ You could link to other learning resources here. What is a good next step for a 
   ISSN 1877-0509,
   https://doi.org/10.1016/j.procs.2017.01.080.
   (https://www.sciencedirect.com/science/article/pii/S1877050917300819)
-
+- G. Karnitis and G. Arnicans, "Migration of Relational Database to Document-Oriented Database: Structure Denormalization and Data Transformation," 2015 7th International Conference on Computational Intelligence, Communication Systems and Networks, 2015, pp. 113-118, doi: 10.1109/CICSyN.2015.30.
+- S. Chickerur, A. Goudar and A. Kinnerkar, "Comparison of Relational Database with Document-Oriented Database (MongoDB) for Big Data Applications," 2015 8th International Conference on Advanced Software Engineering & Its Applications (ASEA), 2015, pp. 41-47, doi: 10.1109/ASEA.2015.19.
