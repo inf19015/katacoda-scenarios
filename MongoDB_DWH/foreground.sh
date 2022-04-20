@@ -1,6 +1,6 @@
 #!/bin/bash
 docker-compose -p dwh up -d
-apt-get -o DPkg::Lock::Timeout=60 update
+apt-get -o DPkg::Lock::Timeout=60 autoclean
 python3 -m venv ./venv
 source ./venv/bin/activate
 pip install -r ./requirements.txt

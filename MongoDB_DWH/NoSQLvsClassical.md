@@ -17,12 +17,21 @@ bevor es überhaupt möglich ist einen einfachen Report generieren zu können.
 Mit der Nutzung von NoSQL Datenbanken könnte es leichter möglich sein ein agiles Vorgehen zu nutzen, 
 ohne sich von Anfang an auf eine Struktur festlegen zu müssen.
 
-> Zane Bicevska, Ivo Oditis, Towards NoSQL-based Data Warehouse Solutions, Procedia Computer Science, Volume 104, 2017, Pages 104-111, ISSN 1877-0509
- 
-## Daten Relational -> NoSQL
-Um Daten aus einer relationalen Datenbank nach MongoDB zu exportieren, müssen diese denormalisiert werden.
-Denormalisierte Daten machen die Abfragen einfacher, es bringt allerdings einige Herausforderungen mit sich die Denormalisierung richtig durchzuführen.
+### Daten Relational -> NoSQL
+Um Daten aus einer relationalen Datenbank nach MongoDB zu exportieren, müssen diese de-normalisiert werden.
+De-normalisierte Daten machen die Abfragen einfacher, es bringt allerdings einige Herausforderungen mit sich die De-normalisierung richtig durchzuführen.
 1:N Beziehungen sind dabei relativ trivial zu denormalisieren, während selbst-referenzierende Daten nicht komplett aufgelöst werden können.
 M:N Beziehungen sollten nicht automatisch aufgelöst werden, da hierbei riesige, aber unnütze Datenmengen entstehen können.
 Die größte Schwierigkeit ist dabei der Umgang mit numerischen Daten, da diese nicht redundant im Data Mart abgelegt werden sollten, 
-aber durch die Denormalisierung oftmals dupliziert werden.
+aber durch die De-normalisierung oftmals dupliziert werden.
+
+### DWH Design
+Das DWH-Design sollt unter Umständen von der Häufigkeit mit der sich die Dimensionsdaten ändern, abhängig gemacht werden.
+Da NoSQL-basierte Data Marts die beschreibenden Daten de-normalisiert speichern, können die entsprechenden
+Attribute in nahezu jedem gespeicherten Dokument auftauchen. Ändern sich die Dimensionsdaten regelmäßig, 
+so kann es zur Herausforderung werden eine passende Datenaktualisierungsstrategie zu finden, 
+wenn nicht jedes Mal alle Daten neu geschrieben werden sollen.
+Zudem kann es vorkommen, dass Aggregationen nicht von den Reporting Tools berechnet werden können und stattdessen im Data Mart als vorkalkulierte Werte gespeichert werden müssen.
+In diesem Fall droht dann schnell eine Inkonsistenz, wenn Daten aktualisiert werden.
+
+> Zane Bicevska, Ivo Oditis, Towards NoSQL-based Data Warehouse Solutions, Procedia Computer Science, Volume 104, 2017, Pages 104-111, ISSN 1877-0509
