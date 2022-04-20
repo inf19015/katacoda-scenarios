@@ -17,7 +17,7 @@ Nun zu einigen beispielhaften Abfragen:
     {
         $group: {
             _id: "",
-            "Umsatz": { $Gesamtumsatz: "$Orders.items.sum" }
+            "Gesamtumsatz": { $sum: "$Orders.items.sum" }
         }
     }
 ])`{{execute}}
