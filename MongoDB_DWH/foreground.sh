@@ -1,5 +1,5 @@
 #!/bin/bash
-docker-compose up -d
+docker-compose -p dwh up -d
 apt-get -o DPkg::Lock::Timeout=60 update
 python3 -m venv ./venv
 source ./venv/bin/activate

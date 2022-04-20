@@ -15,19 +15,19 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "1setup.md"
+        "text": "setup.md"
       },
       {
         "title": "Step 2",
-        "text": "0NoSQLvsClassical.md"
+        "text": "NoSQLvsClassical.md"
       },
       {
         "title": "Step 3",
-        "text": "2Datensatz.md"
+        "text": "Datensatz.md"
       },
       {
         "title": "Step 4",
-        "text": "step3.md"
+        "text": "ErsteAbfrage.md"
       }
     ],
     "intro": {
