@@ -90,7 +90,13 @@ Nun zu einigen beispielhaften Abfragen:
     {
         $group: {
             _id: "$_id",
-            "avgUmsatz": { $avg: "$Orders.items.sum" }
+            "Umsatz": { $sum: "$Orders.items.sum" }
+        }
+    },
+    {
+        $group: {
+            _id: "",
+            "avgUmsatz": { $avg: "$Umsatz" }
         }
     },
     {
