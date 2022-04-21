@@ -13,14 +13,11 @@ Welche Vorteile, aber auch welche Gefahren bringt es mit sich, eine Dokumentenor
 Im Folgenden werden diese Fragen Schritt für Schritt abgehandelt und mit einigen Beispielabfragen wird gezeigt wie im Data-warehouse Umfeld typische, 
 analytische Anfragen mit einer MongoDB ablaufen.
 
-## Zusammenfassung
+## Inhaltsüberblick
 
-- 3-4 bullets
-- of what you
-- will learn
-
-## Prerequisite Skills
- having a brain would be helpful
+- Kurzer Überblick von Problemen und Chancen
+- Einpflegen eines Beispieldatensatzes
+- Beispielabfragen
 
 
 
