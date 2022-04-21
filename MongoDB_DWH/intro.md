@@ -9,8 +9,8 @@ Zielgruppe: DWH-Entwickler mit wenig Erfahrung
 Normalerweise werden im Data-warehouse Umfeld relationale Datenbanken verwendet und das auch aus gutem Grund. 
 Relationale Datenbanken können dabei helfen eine hohe Datenintegrität zu gewährleisten und sind in vielen Anwendungsfällen sehr performant.
 
-Welche Vorteile, aber auch welche Gefahren bringt es mit sich, eine Dokumentenorientierte Datenbank wie MongoDB stattdessen einzusetzen?
-Im Folgenden werden diese Fragen Schritt für Schritt abgehandelt und mit einigen Beispielabfragen wird gezeigt wie im Data-warehouse Umfeld typische, 
+Welche Vorteile, aber auch welche Gefahren bringt es mit sich, eine dokumentenorientierte Datenbank wie MongoDB stattdessen einzusetzen?
+Im Folgenden wird diese Fragestellung abgehandelt und mit einigen Beispielabfragen wird gezeigt wie im Data-warehouse Umfeld typische, 
 analytische Anfragen mit einer MongoDB ablaufen.
 
 ## Inhaltsüberblick

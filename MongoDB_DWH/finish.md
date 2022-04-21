@@ -1,3 +1,7 @@
+# Ausblick
+MongoDB hat einiges zu bieten und kann zum Beispiel Volltextsuche wie mit Google umsetzen.
+Leider fehlen noch passende Frontend Anwendungen und bis sich das nicht ändert, 
+wird MongoDB im DWH Umfeld wohl kaum Verbreitung finden.
 
 ## Quellen
 - Zane Bicevska, Ivo Oditis,

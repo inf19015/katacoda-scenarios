@@ -34,4 +34,12 @@ wenn nicht jedes Mal alle Daten neu geschrieben werden sollen.
 Zudem kann es vorkommen, dass Aggregationen nicht von den Reporting Tools berechnet werden können und stattdessen im Data Mart als vorkalkulierte Werte gespeichert werden müssen.
 In diesem Fall droht dann schnell eine Inkonsistenz, wenn Daten aktualisiert werden.
 
+## Volltextsuche
+Mit MongoDB ist es möglich eine Volltextsuche für die Dokumente zu integrieren. 
+Es ist zwar technische möglich eine relationale Datenbank so zu indexieren, 
+allerdings müssten dann jeweils aufwändige Joins gemacht werden, 
+um die Daten zusammenzuführen, was das ganze kaum Praktikabel macht.
+Da bei MongoDB einfach die ganzen Dokumente gespeichert werden, kann eine Google ähnliche Suche gebaut werden. 
+Ein Beispiel: Es wird nach Otto gesucht und die Person Hannes gefunden, weil sie einen Hund namens Otto hat.
+
 > Zane Bicevska, Ivo Oditis, Towards NoSQL-based Data Warehouse Solutions, Procedia Computer Science, Volume 104, 2017, Pages 104-111, ISSN 1877-0509
