@@ -1,8 +1,8 @@
 # Analytische Abfragen
-Nun zu einigen beispielhaften Abfragen. Da alle Informationen wie Bestellungen direkt im Dokument der Personen gespeichert sind, 
-ist es nicht nötig die bei relationalen Datenbanken fälligen Joins zu verwenden. 
+Nun zu einigen beispielhaften Abfragen. Da alle Informationen wie Bestellungen direkt im Dokument der Person gespeichert sind, 
+ist es nicht nötig die bei relationalen Datenbanken notwendigen Joins zu verwenden. 
 Stattdessen müssen wir aber für Aggregationen bei verschachtelten Listen den Datensatz verflachen, 
-also für jeden Eintrag der Liste einen neuen Datensatz anlegen.
+also den Datensatz so transformieren, dass für jeden Eintrag der Liste ein eigener Eintrag existiert.
 Dies passiert mit `$unwind`
 
 ## Bisheriger Gesamtumsatz:
