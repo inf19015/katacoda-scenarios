@@ -2,7 +2,7 @@
   "title": "MongoDB als DWH-Backend",
   "description": "Chancen und Risiken bei der Nutzung von MongoDB als DWH-Backend",
   "difficulty": "Intermediate",
-  "time": "15 minutes",
+  "time": "10 minutes",
   "details": {
     "assets": {
       "host01": [
